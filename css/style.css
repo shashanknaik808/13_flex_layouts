@@ -40,3 +40,32 @@ h2 {
     background-color: #e1e1e1;
     padding: 1rem;
 }
+
+/** Fixed Footer at the bottom **/
+.page {
+    max-width: 800px;
+    margin: 0 auto;
+
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.page>* {
+    padding: 1rem;
+}
+
+.page .heading {
+    background-color: #CDDC39;
+}
+
+.page .main-content {
+    background-color: #B3DFD8;
+    flex: 1;
+}
+
+.page .footer {
+    background-color: #212121;
+    color: white;
+}
